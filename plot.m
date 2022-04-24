@@ -1,8 +1,4 @@
-%30.09.2021 Ukol 1
-%--------------------
-clc
-close all
-clear
+close all, clear all, clc
 %sinusova funkce o frekvenci 5Hz (2s)
 t1=0:0.01:2;     
 y1=5*sin(2*pi*5*t1);   
