@@ -1,9 +1,4 @@
-%3d plosne grafy
-%koule
-%17.9.2021
-%---------------
-clc
-close all
+clear all, close all,clc
 x=-pi:2*pi/40:pi; %osa x, vektor
 y=-pi:2*pi/30:pi; %osa y
 [X,Y]=meshgrid(x,y); %matice jako plocha, souradnice prusecku
